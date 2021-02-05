@@ -29,6 +29,8 @@ nav
         &:last-child
             border-right: none
     
+.hamburger
+    display: none
 
 .subheader
     position: absolute
@@ -79,6 +81,9 @@ nav
         font-size: 14px
         font-weight: 400
         text-transform: uppercase
+
+    .xs-visible
+        display: none
 
 /** Section 1 **/
 
@@ -232,7 +237,6 @@ nav
 
 
 /** Section 3 **/
-
 .mobile
     min-height: 864px
     padding: 48px 0 79px 0
@@ -314,11 +318,15 @@ nav
     background: $color_black
     padding-top: 56px
     position: relative
+    .mobile_car
+        display: none
     .img_car
         position: absolute
         top: 232px
         left: 50%
         transform: translateX(-50%)
+    .car_first_footer
+        display: none
 .car_second
     min-height: 400px
     padding: 217px 0 138px 0
